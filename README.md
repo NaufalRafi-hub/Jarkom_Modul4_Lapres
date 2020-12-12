@@ -6,10 +6,11 @@ Laporan Resmi Praktikum Modul 4 Jaringan Komputer 2020  Kelompok C07 (0099 &amp;
 ### langkah 1 menentukan jumlah IP yang dibutuhkan oleh tiap subnet dan melakukan labelling
 maka akn mendapatkan subnet, jumlah IP, dan Netmask
 ### langkah 2 pembagian IP, dan dibenetuk seperti tree
-![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/VLSM_tree.jpeg)
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/VLSM_Tree.jpeg)
 tree  ini akan digunakan untuk routing dalam aplikasi cisco packet tracer
 ### langkah 3 subnetting untuk pemabagian IP sesuai kebutuhan subnet
 ![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/VLSM_table.png)
+
 dari tree yang sudah di subnetting maka akan terdapat NID netmask dan broadcast ID
 ### langkah 4 routing dalam aplikasi CPT   
 cara :
