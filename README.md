@@ -2,6 +2,8 @@
 Laporan Resmi Praktikum Modul 4 Jaringan Komputer 2020  Kelompok C07 (0099 &amp; 0157)
 # Pembahasan Jawaban
 ## VLSM
+### langkah 1 menentukan jumlah IP yang dibutuhkan oleh tiap subnet dan melakukan labelling
+
 ## CIDR
 ### langkah 1 mengelompokkan 
 ![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4_1.jpg)
