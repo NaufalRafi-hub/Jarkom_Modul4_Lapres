@@ -94,4 +94,75 @@ menentukan G1 , dengan perbandingan F1 dan E2
 
 ![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/CIDR_table.png)
 
+### langkah 5 membuat topologi
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.12.jpg)
+
+memasuki switch, router, server, dan klien sesuai dalam topologi yang dibentuk.
++ router -> surabaya, pasuruan, probolinggo, madiun, batu, kediri, blitar
++ server -> malang, mojokerto
++ klein -> sampang, bondowoso, bojonegoro, jombang, jember, banyuwangi, sidoarjo, nganjuk, tulungagung, lumajang
+
+sehingga akan menghasilkan xming dengan kota2 yang ditulis di atas
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.10.jpg)
+
+### langkah 6 setting sysctl 
+cara :
++ edit `nano /etc/sysctl.conf`
++ dengan mengilangkan tanda `#` pada `net.ipv4.ip_forward=1`
+
+### langkah 7 setting interfaces per kota
+
+misal interfaces pada router surabaya:
++ `nano /etc/network/interfaces`
++ menambahkan 
+`auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.151.76.34
+netmask 255.255.255.252
+gateway 10.151.76.33
+
+auto eth1
+iface eth1 inet static
+address 192.168.64.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 192.168.192.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth2 inet static
+address 192.168.32.1
+netmask 255.255.255.252
+
+auto eth4
+iface eth2 inet static
+address 10.151.77.66
+netmask 255.255.255.252`
+sesuai banyaknya yang konek ke dalam router surabaya
+
++ lalu di restart dengan mengketik `service networking restart`
++ lakukan ini per kota yang terdapat dalam topologi
+
+### langkah 8 PING
+
+ping ini digunakan untuk memastikan rancangan yang sudah dibentuk dalam topologi bekerja / connect satu sama lain
+
+disini kami coba mengeping router surabaya dengan klien sidoarjo
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.11.jpg)
+
+cara :
++ menulis `ping 'ke arah tujuan'`
++ `ping 192.168.160.0`
+
+
+
+
 
