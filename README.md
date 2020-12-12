@@ -85,5 +85,13 @@ menentukan F1 , dengan perbandingan E1 dan A2
 
 menentukan G1 , dengan perbandingan F1 dan E2
 
+### langkah 2 mendapatkan NID : 192.168.0.0 dan Netmask : /16 dari hasil labelling tersebut
+### langkah 3 membuat tree sesuai labelling tadi
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/CIDR_tree.jpeg)
+
+### langkah 4 mendapatkan NID NETMASK DAN BROADCAST ADDRESS
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/CIDR_table.png)
 
 
