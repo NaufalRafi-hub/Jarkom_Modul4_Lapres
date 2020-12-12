@@ -41,9 +41,49 @@ ROUTER SURABAYA KE PC BANYUWANGI
 
 
 ## CIDR
-### langkah 1 mengelompokkan 
-![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/CIDR_Diagram.jpeg)
+### langkah 1 melakukan labelling subnet 
 cara :
-+ mengelompokkan dengan yang A terlebih dahulu
-+ mengelompokkan subnet dari yang terjauh dari surabaya
-+ 
++ label subnet kelompok A terlebih dahulu
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.3.jpg)
+
++  label subnet kelompok B dan untuk mengtahui netmasknya dilihat dari subnet keloompok A yang terkecil dan dikurang 1
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.4.jpg)
+
++ label subnet kelompok C, untuk mengetahui netmasknya lakukan hal seperti menentukan netmask B
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.5.jpg)
+
+menentukan c3 , dengan perbandingan B3 dan A11
+menentukan C1 , dengan perbandingan B1 dan A12
+menentukan C2 , dengan perbandingan B2 dan A4
+
++ label subnet kelompok D
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.6.jpg)
+
+menentukan D1 , dengan perbandingan C1 dan C3
+menentukan D2 , dengan perbandingan A7 dan C2
+
++ label subnet kelompok E
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.7.jpg)
+
+menentukan E1 ,  dengan perbandingan D2 dan A5
+menentukan E2 , dengan perbandingan D1 dan A8
+
++ label subnet kelompok F
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.8.jpg)
+
+menentukan F1 , dengan perbandingan E1 dan A2
+
++ label subnet kelompok G
+
+![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.9.jpg)
+
+menentukan G1 , dengan perbandingan F1 dan E2
+
+
+
