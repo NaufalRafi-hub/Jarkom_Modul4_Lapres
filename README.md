@@ -17,7 +17,9 @@ cara :
 + membuat topologi jaringan seperti di soal dari cloud, server, router, PC, Switch
 + sesudah membuat topologi jaringan lalu klik `options` lalu ke `preferences` dan centang `always show port labels`
 + menyetting interface sesuai jumlah subnet yang tadi dibuat
+
 ![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.1.jpg)
+
 + misal menyambungkan router pasuruan dengan probolinggo : `termasuk subnet A4/30` , `lihat di dalam tree IP A4`, `IP SUBNET A4 : 192.168.4.0` , `buka interface router pasuruan lalu pilih port label yang menyambung dengan probolinggo` , `lalu isi dalam IPv4 Address bit terakhir ditambah +1, dan isi subnet mask sesuai netmask ip tersebut, dan tutup router pasuruan` , `buka router probolinggo` , `lakukan hal yang sama seperti router pasuruan tetapi dalam kolom IPv4 Address ditambah +2`
 + lakukan itu pada semua router 
 + sesudah menyetting interface, selanjutnya menyetting routing static
@@ -31,7 +33,9 @@ cara :
 + pilih yang ingin di test ping
 + misal :
 ROUTER SURABAYA KE PC BANYUWANGI
+
 ![alt text](https://github.com/NaufalRafi-hub/Jarkom_Modul4_Lapres/blob/main/imageprak4/img4.2.jpg)
+
 + akan menghasilkan output succesfull jika ping berhasil
 + jika tidak maka output akan keluar failed
 
